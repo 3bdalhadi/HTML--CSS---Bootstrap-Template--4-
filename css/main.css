@@ -117,6 +117,7 @@ a{
     }
     .sidpar ul{
         width: 40px;
+        top:50px;
     }
     .sidpar ul li a span {
         display: none;
