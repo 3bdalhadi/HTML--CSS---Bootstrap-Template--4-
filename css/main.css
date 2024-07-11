@@ -59,6 +59,12 @@ a{
     text-decoration: none;
     color: black;
 }
+@media (max-width:767px){
+    .main-container{
+        margin-left: 0px;
+        margin-right: 0;
+    }
+}
 /*end golbel ruels */
 
 /* start sidbar styel */
@@ -323,7 +329,7 @@ a{
 .project-prog .project-prog-list::before{
     content: "";
     width: 2px;
-    height: 100%;
+    height: 95%;
     background-color: var(--blue-color);
     position: absolute;
     top: 0;
@@ -356,11 +362,16 @@ a{
     right: 0;
     opacity: .1;
 }
+@media (max-width:767px){
+    .project-prog .last-project-img{
+        display: none;
+    }
+}
 
 /* end uploads style */
 
 /* start Reminders */
-.reminders .reminders-list li > span{
+.reminders .reminders-list li .ball{
     display: block;
     width: 15px;
     height: 15px; 
